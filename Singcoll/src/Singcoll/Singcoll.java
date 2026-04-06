@@ -1,7 +1,5 @@
 package Singcoll;
 
-import java.util.Scanner;
-
 public class Singcoll {
 	public static void main(String []args) {
 
@@ -38,14 +36,9 @@ public class Singcoll {
 		for (int x = 0; x<numbers.length;x++) {
 			for(int y = 0; y<numbers[x].length; y++) {
 				numbers[1][y] = 0;
-			}
-		}
-
-		for(int x = 0; x<numbers.length; x++) {
-			for (int y = 0; y<numbers[x].length; y++) {
 				System.out.print(numbers[x][y] + " ");
 			}
 			System.out.println("");
-		}		
-	}	
+		}
+	}		
 }
